@@ -1,4 +1,12 @@
-Responsiveness Assignment
+## issues to address on bootstrap portfolio
+-sticky footer sticks in middle of the page on scroll
+-nav links awkwardly pile under name in narrow view
+-portfolio pics are not aligning in an asethetic way
+-big problems with text overlay
+
+
+
+## Responsiveness Assignment
 Overview
 In this assignment, you will be building your portfolio layout using the Bootstrap CSS Framework.
 
