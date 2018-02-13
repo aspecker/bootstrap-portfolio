@@ -1,5 +1,5 @@
 /*Style CSS for bootstrap portfolio*/
-
+/* main body styling*/
 html, body{
     height:100%;
 }
@@ -9,30 +9,53 @@ html{
 }
 body{
     margin-bottom: 60px;
-    background: url("../images/intersection.png")
+    background: url("../images/pink-dust.png");
+    color: darkslategray;
+    font-size: 16px;
 }
 .connectMe{
     max-width: 300px;
 }
 .container{
-    color: #222;
     padding-bottom: 15px;
-    
 }
 .mainContent{
     margin-bottom: 60px;
 }
+/* navbar and footer styling*/
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    background-color: #f5f5f5;
+    }
+.navbar{
+    background-color: #f5f5f5;
+}
+#footerText{
+    font-size: 18px;
+    padding-top:15px;
+}
+
+/* panel styling*/
+.panel-body{
+    background-image: url("../images/asfalt-dark.png");
+}
+.panel-heading{
+    background-color: #f5f5f5;
+}
+.panelHead{
+    color: darkslategray;
+}
+/* picture styling*/
 #myPic{
     float: left;
     max-width: 300px;
     max-height: 300px;
     padding: 0px 10px 10px 0px;
 }
-/* .thumbnail{
-    max-width: 200px;
-    max-height: 175px;
-} */
-
 .linkIcon{
     max-width: 60px;
     max-height: 60px;
@@ -43,33 +66,27 @@ body{
     border: 0px solid 
 }
 .carousel-caption{
-    font-size: 20px;
-    color: #00d0ff;
-    /* background-color: darkslategray; */
+    font-size: 23px;
+    color: #f5f5f5;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
-
-/*footer css*/
-#footer{
-position: fixed;
-bottom: 0;
-width: 100%;
-text-align: center;
-height: 60px;
-background-color: #f5f5f5;
+.portPic{
+    filter: greyscale(20%);
+    filter: blur(0.5px);
+    opacity: 80%;
 }
-
 #dogPic{
     width: 220px;
     height: 175px;
 }
-
-.portPic{
-    filter: greyscale(20%);
-    filter: blur(1px);
-    opacity: 30%;
-
+#crystalPic{
+    padding: 20px 0px 28px 0px;
 }
-.portPic:hover {
-    opacity: 90%;
-}
+
+
+
 
